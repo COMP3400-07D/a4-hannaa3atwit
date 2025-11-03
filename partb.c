@@ -7,7 +7,7 @@
 int main(int argc, const char* argv[]) {
     if (argc <= 1) {
         // no arguments provided
-        write(STDOUT_FILENO, "ERROR: no arguments\n", 20);
+        write(STDOUT_FILENO, "ERROR: No arguments\n", 20);
         return 1;
     }
 

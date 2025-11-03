@@ -13,7 +13,7 @@ static void wputs(const char *s) {
 int main(int argc, const char* argv[]) {
     // expect exactly two arguments: word and filename
     if (argc != 3) {
-        wputs("ERROR: no arguments\n");
+        wputs("ERROR: No arguments\n");
         return 1;
     }
 
